@@ -14,19 +14,19 @@ public class oppgave4 {
 		int trinn4 = 934051;
 		
 		if (brutto > trinn4) {
-			double skatt = brutto * (double) 0.1452;	
+			double skatt = brutto * 0.1452;	
 			showMessageDialog(null, "Din inntekt er: " + brutto + " Kr" + " og skatten er " + skatt + " Kr," + " satsen er 14.52%");
 		}
 		else if (brutto > trinn3 ) {
-			double skatt = brutto * (double) 0.1152;
+			double skatt = brutto * 0.1152;
 			showMessageDialog(null, "Skattetrinn 3. Inntekten din er " + brutto + " Kr" + " og skatten er " + skatt + " Kr," + " satsen er 11.52%");
 		}
 		else if (brutto > trinn2 ) {
-			double skatt = brutto * (double) 0.0241;
+			double skatt = brutto * 0.0241;
 			showMessageDialog(null, "Skattetrinn 2. Inntekten din er " + brutto  + " Kr" + " og skatten er " + skatt + " Kr," + " satsen er 2.41%");
 		}
 		else if (brutto > trinn1 ) {
-			double skatt = brutto * (double) 0.0093;
+			double skatt = brutto * 0.0093;
 			showMessageDialog(null, "Skattetrinn 1. Inntekten din er " + brutto + " Kr" + " og skatten er " + skatt + " Kr," + " satsen er 0.93%");
 		}
 		else {

@@ -8,7 +8,7 @@ public class oppgave6 {
 		
 		 	int Tall1 = Integer.parseInt(showInputDialog("Skriv inn et tall"));
 		 	
-		 	int fakultet = 0; 
+		 	int fakultet = 1; 
 		 	
 		 	if (Tall1 < 0) {
 		 		showMessageDialog(null, "Ugyldig input");
@@ -20,10 +20,7 @@ public class oppgave6 {
 		 		
 		 	else {
 		 		for(int i = Tall1 ;i >= 1 ; i--) {
-		 			int Tall2 = Tall1;
-		 			fakultet = Tall2 * (Tall1 -1 );
-		 			
-		 			
+		 			fakultet *= i;
 		 		}	
 		 	}		 	
 		 			showMessageDialog(null, "Fakultetet blir: " + fakultet);
